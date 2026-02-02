@@ -10,7 +10,7 @@ This repository contains the code of the paper "Tensor CUR Decomposition under t
 Table 1 of comparison of the tensor CUR decomposition with different matrices. Evaluating metrics are Relative error (RE), F1, Precision, Recall, AGE, pEPs, PSNR and CPU time.
 The comparison was done on the highway video sequence of shape [240,320,1231], the office video sequence of shape [240,360,1481], the pedestrians video sequence of shape [240,360,800] and the PETS2006 video sequence of shape [576,720,901] available from this [link]([https://github.com/mendozacortesgroup/Poset-filters/tree/main?tab=MIT-1-ov-file#readme](http://jacarini.dinf.usherbrooke.ca/dataset2014)).
 
-| Sequence | Method | RE	| F1	| Precision	| Recall	| AGE	| pEPs	| PSNR	| Runtime |
+| Sequence | Matrix M | RE	| F1	| Precision	| Recall	| AGE	| pEPs	| PSNR	| Runtime |
 |--------|---------|-----|--------|---------|-----|--------|---------|-----|--------|
 | highway | dct inj | 0.05336 | 0.75665 | 0.91056 | 0.64724 | 5.2899 | 0.01393 | 31.25 | 56.868 |
 | highway | dct inv | **0.04790** | **0.76294** | 0.90523 | **0.65930** | **4.7693** | **0.01222** | **31.80** | 37.287 |
