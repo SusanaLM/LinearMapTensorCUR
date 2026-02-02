@@ -7,10 +7,7 @@ This repository contains the code of the paper "Tensor CUR Decomposition under t
 
 * **Overview**
   
-The factorization of three-dimensional data continues to gain attention due to its relevance in representing and compressing large-scale datasets.
-The linear-map-based tensor–tensor multiplication is a matrix-mimetic operation that extends the notion of matrix multiplication to higher-order tensors, and which is a generalization of the T-product.
-Under this framework, a new SVD-based method was introduced for tensor approximation, outperforming some non–matrix-mimetic tensor factorizations, but additional research is required to extend to other factorizations.
-We introduce the tensor CUR decomposition under this product and show its performance in video foreground-background separation for different linear maps.
+We introduce the tensor CUR decomposition under the framework of the linear-map-based tensor-tensor multiplication, and show its performance in video foreground-background separation for different linear maps.
 
 * **Full Table 1**
 
@@ -77,6 +74,7 @@ The comparison was done on the highway video sequence of shape [240, 320, 1231],
   - References:  https://arxiv.org/abs/
  
 * **Citation**
+
 If you use this code for your research, please cite our paper:
 
 ```
