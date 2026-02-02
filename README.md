@@ -3,12 +3,19 @@
 
 This repository contains the code of the paper "Tensor CUR Decomposition under the Linear-Map-Based Tensor-Tensor Multiplication"
 
+## Contents
+
 * **Overview**
+  
+The factorization of three-dimensional data continues to gain attention due to its relevance in representing and compressing large-scale datasets.
+The linear-map-based tensor–tensor multiplication is a matrix-mimetic operation that extends the notion of matrix multiplication to higher-order tensors, and which is a generalization of the T-product.
+Under this framework, a new SVD-based method was introduced for tensor approximation, outperforming some non–matrix-mimetic tensor factorizations, but additional research is required to extend to other factorizations.
+We introduce the tensor CUR decomposition under this product and show its performance in video foreground-background separation for different linear maps.
 
 * **Full Table 1**
 
 Table 1 of comparison of the tensor CUR decomposition with different matrices. Evaluating metrics are Relative error (RE), F1, Precision, Recall, AGE, pEPs, PSNR and CPU time.
-The comparison was done on the highway video sequence of shape [240,320,1231], the office video sequence of shape [240,360,1481], the pedestrians video sequence of shape [240,360,800] and the PETS2006 video sequence of shape [576,720,901] available from this [link]([https://github.com/mendozacortesgroup/Poset-filters/tree/main?tab=MIT-1-ov-file#readme](http://jacarini.dinf.usherbrooke.ca/dataset2014)).
+The comparison was done on the highway video sequence of shape [240, 320, 1231], the office video sequence of shape [240,360,1481], the pedestrians video sequence of shape [240, 360, 800] and the PETS2006 video sequence of shape [576, 720, 901] available from this [link]([https://github.com/mendozacortesgroup/Poset-filters/tree/main?tab=MIT-1-ov-file#readme](http://jacarini.dinf.usherbrooke.ca/dataset2014)).
 
 | Sequence | Matrix M | RE	| F1	| Precision	| Recall	| AGE	| pEPs	| PSNR	| Runtime |
 |--------|---------|-----|--------|---------|-----|--------|---------|-----|--------|
@@ -60,3 +67,27 @@ The comparison was done on the highway video sequence of shape [240,320,1231], t
 | PETS2006 | u3 inj | 0.12494 | 0.73759 | 0.78281 | 0.69731 | 14.4271 | 0.31739 | 23.75 | 232.255 | 
 | PETS2006 | u3 inv | 0.12494 | 0.73759 | 0.78281 | 0.69731 | 14.4271 | 0.31739 | 23.75 | 194.528 | 
 | PETS2006 | u3 surj | 0.12664 | 0.72732 | 0.74403 | **0.71134** | 14.6294 | 0.34136 | 23.63 | 168.701 |
+
+
+* **Colophon**
+  - Credits -- code, algorithm, implementation/deployment, testing and overall direction: Susana Lopez Moreno, June-Ho Lee. Principal Investigator: Taehyeong Kim.
+  - Copyright and License -- see [LICENSE]() file.
+  - How to contribute: submit issues.
+  - This project has received funding from the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS-2024-00406152, 2022R1A5A1033624 ,RS-2024-00342939, RS-2025-25436769).
+  - This work was supported in part through computational resources and services provided by the Institute for Cyber-Enabled Research at Michigan State University
+  - References:  https://arxiv.org/abs/
+ 
+* **Citation**
+If you use this code for your research, please cite our paper:
+
+```
+@misc{linearmaptensorCUR,
+  title={Tensor CUR Decomposition under the Linear-Map-Based Tensor-Tensor Multiplication}, 
+      author={Susana Lopez-Moreno and June-Ho Lee and Taehyeong Kim},
+      year={2026},
+      eprint={2602},
+      archivePrefix={arXiv},
+      primaryClass={},
+      url={}, 
+}
+```
