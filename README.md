@@ -1,5 +1,5 @@
 # Tensor CUR Decomposition under the Linear-Map-Based Tensor-Tensor Multiplication
-<p align="center"><a href=""><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
+<p align="center"><a href="https://arxiv.org/abs/2602.09539"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
 
 This repository contains the code of the paper "Tensor CUR Decomposition under the Linear-Map-Based Tensor-Tensor Multiplication"
 
@@ -70,7 +70,7 @@ The comparison was done on the CAVIAR1 sequence of shape [256, 384, 610], the Hu
   - Copyright and License -- see [LICENSE](https://github.com/SusanaLM/LinearMapTensorCUR/blob/main/LICENSE) file.
   - How to contribute: submit issues.
   - This project has received funding from the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. RS-2024-00406152, 2022R1A5A1033624, RS-2024-00342939, RS-2025-25436769).
-  - References:  https://arxiv.org/abs/
+  - References:  [https://arxiv.org/abs/](https://arxiv.org/abs/2602.09539)
  
 * **Citation**
 
@@ -81,9 +81,8 @@ If you use this code for your research, please cite our paper:
   title={Tensor CUR Decomposition under the Linear-Map-Based Tensor-Tensor Multiplication}, 
       author={Susana Lopez-Moreno and June-Ho Lee and Taehyeong Kim},
       year={2026},
-      eprint={2602},
+      eprint={2602.09539},
       archivePrefix={arXiv},
-      primaryClass={},
-      url={}, 
+      url={https://arxiv.org/abs/2602.09539}, 
 }
 ```
